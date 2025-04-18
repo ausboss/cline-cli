@@ -17,3 +17,15 @@ pnpm-lock.yaml
 coverage
 # But don't ignore the coverage scripts in .github/scripts/
 !.github/scripts/coverage/
+packages/cline-cli/.env
+
+.env
+*.env
+.cline/
+
+# Build artifacts
+dist/
+bin/
+
+# Dependencies
+node_modules/
